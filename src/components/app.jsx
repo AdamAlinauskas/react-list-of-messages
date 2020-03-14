@@ -18,6 +18,7 @@ const listOfMessages = [
 ];
 
 listOfMessages.push(new MessageToSend("Lateef", "SUP"));
+listOfMessages.push(new MessageToSend("Nahom", "SUP!!!"));
 
 class App extends Component {
   render() {
