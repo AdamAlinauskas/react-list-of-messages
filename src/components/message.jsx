@@ -5,11 +5,10 @@ class Message extends Component {
     const isFor = this.props.isFor;
     const extraGreeting = this.props.extraGreeting;
 
-    const theMessage1 = "This is a message for: " + isFor + " " + extraGreeting;
+    // const theMessage1 = "This is a message for: " + isFor + " " + extraGreeting;
 
     const theMessage = `This is a message for ${isFor} ${extraGreeting}`;
 
-    console.log(isFor);
     return <h3>{theMessage}</h3>;
   }
 }
