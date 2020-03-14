@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div>
         <header>
-          <h1>List of cars</h1>
+          <h1>Messges</h1>
         </header>
         <main>
           <Message isFor="adam" extraGreeting="How are you?" />
